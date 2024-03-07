@@ -1,4 +1,4 @@
-package restful_booker;
+package apis.restful_booker;
 
 public interface IPathParam {
     final String PING_PATH_PARAM="/ping";
