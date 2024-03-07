@@ -9,14 +9,9 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
 
-public class HealthCheck {
+public class HealthCheck extends BaseClass{
 
-    RestAssured restAssured=null;
-    ResponseSpecification resSpecification=null;
-    @BeforeTest
-    public void setBaseURI(){
-        restAssured.baseURI="https://restful-booker.herokuapp.com";
-    }
+
     @Test
     public void healthCheckPingMethod(){
         String resp = given()
