@@ -34,10 +34,10 @@ public class GivenExceptWhenThen {
         System.out.println(path.getString("data.avatar"));
     }
     @Test
-    public  void getHeader(){
+    public  void getResponsePrettyString(){
         RestAssured.baseURI="https://reqres.in/";
         String resp = given().expect().when().get("api/users/2")
-                .then().extract().response().asString();
+                .then().extract().response().asPrettyString();
         System.out.println(resp);
         JsonPath path=new JsonPath(resp);
         System.out.println(path.getString("data.id"));
