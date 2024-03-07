@@ -1,9 +1,5 @@
-package restful_booker;
+package apis.restful_booker;
 
-import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
-import io.restassured.specification.ResponseSpecification;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
