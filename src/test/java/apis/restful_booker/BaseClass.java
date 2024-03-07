@@ -1,4 +1,4 @@
-package restful_booker;
+package apis.restful_booker;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.ResponseSpecification;
