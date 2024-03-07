@@ -1,7 +1,9 @@
 package apis.jira;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
+import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -46,4 +48,22 @@ public class GivenExceptWhenThen {
         System.out.println(path.getString("data.last_name"));
         System.out.println(path.getString("data.avatar"));
     }
-}
+    @Test
+    public  void getResponseLog() {
+        RestAssured.baseURI = "https://reqres.in/";
+        String resp = given().expect().when().get("api/users/2")
+                .then().log().all().extract().asPrettyString();
+        System.out.println(resp);
+    }
+
+    @Test
+    public void setResponseSpec(){
+        ResponseSpecification resSpec=RestAssured.expect();
+        resSpec.contentType(ContentType.JSON);
+        resSpec.statusCode(200);
+        resSpec.statusLine("HTTP/1.1 200 OK");
+        baseURI="https://reqres.in/";
+        given().expect().when().get("api/users/2").then().spec(resSpec);
+    }
+
+    }
