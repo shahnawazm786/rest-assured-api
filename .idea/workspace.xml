@@ -46,7 +46,25 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.GivenExceptWhenThen.givenExceptNotFound1">
+  <component name="RunManager" selected="TestNG.GivenExceptWhenThen.getHeader">
+    <configuration name="GivenExceptWhenThen.getHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured.api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apis.jira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apis.jira" />
+      <option name="MAIN_CLASS_NAME" value="apis.jira.GivenExceptWhenThen" />
+      <option name="METHOD_NAME" value="getHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GivenExceptWhenThen.givenExceptNotFound" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-assured.api" />
       <extension name="coverage">
@@ -121,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GivenExceptWhenThen.getHeader" />
         <item itemvalue="TestNG.GivenExceptWhenThen.givenExceptNotFound1" />
         <item itemvalue="TestNG.GivenExceptWhenThen.givenExceptNotFound" />
         <item itemvalue="TestNG.GivenExceptWhenThen.givenExceptWhenThenMethod" />
@@ -235,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709796940954</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="rest assured">
+      <created>1709797268703</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709797268703</updated>
+    </task>
+    <task id="LOCAL-00016" summary="rest assured">
+      <created>1709797275606</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709797275606</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
