@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="897fe36d-ae2d-4c16-b0dc-f9ae8dd459ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apis/jira/GivenExceptWhenThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apis/jira/LoginSession.java" afterDir="false" />
+    <list default="true" id="897fe36d-ae2d-4c16-b0dc-f9ae8dd459ea" name="Changes" comment="rest assured">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apis/jira/GivenExceptWhenThen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/jira/GivenExceptWhenThen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +118,91 @@
       <option name="presentableId" value="Default" />
       <updated>1707820709158</updated>
     </task>
+    <task id="LOCAL-00001" summary="rest assured">
+      <created>1709796373175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796373175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rest assured">
+      <created>1709796378399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796378399</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rest assured">
+      <created>1709796384873</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796384873</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rest assured">
+      <created>1709796392376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796392376</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rest assured">
+      <created>1709796397587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796397587</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rest assured">
+      <created>1709796405241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796405241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rest assured">
+      <created>1709796410141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796410141</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rest assured">
+      <created>1709796416165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796416165</updated>
+    </task>
+    <task id="LOCAL-00009" summary="rest assured">
+      <created>1709796421561</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796421561</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rest assured">
+      <created>1709796427163</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796427163</updated>
+    </task>
+    <task id="LOCAL-00011" summary="rest assured">
+      <created>1709796432724</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796432724</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rest assured">
+      <created>1709796437506</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709796437506</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,5 +215,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rest assured" />
+    <option name="LAST_COMMIT_MESSAGE" value="rest assured" />
   </component>
 </project>
