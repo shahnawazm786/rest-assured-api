@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="897fe36d-ae2d-4c16-b0dc-f9ae8dd459ea" name="Changes" comment="rest assured">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restful_booker/HealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restful_booker/IPathParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restful_booker/HealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restful_booker/HealthCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.GivenExceptWhenThen.setResponseSpec">
+  <component name="RunManager" selected="TestNG.HealthCheck.healthCheckPingMethod">
     <configuration name="GivenExceptWhenThen.getHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-assured.api" />
       <extension name="coverage">
@@ -76,24 +78,6 @@
       <option name="PACKAGE_NAME" value="apis.jira" />
       <option name="MAIN_CLASS_NAME" value="apis.jira.GivenExceptWhenThen" />
       <option name="METHOD_NAME" value="getResponseLog" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GivenExceptWhenThen.givenExceptNotFound" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest-assured.api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apis.jira.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apis.jira" />
-      <option name="MAIN_CLASS_NAME" value="apis.jira.GivenExceptWhenThen" />
-      <option name="METHOD_NAME" value="givenExceptNotFound" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,13 +121,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HealthCheck.healthCheckPingMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured.api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restful_booker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restful_booker" />
+      <option name="MAIN_CLASS_NAME" value="restful_booker.HealthCheck" />
+      <option name="METHOD_NAME" value="healthCheckPingMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HealthCheck.healthCheckPingMethod" />
         <item itemvalue="TestNG.GivenExceptWhenThen.setResponseSpec" />
         <item itemvalue="TestNG.GivenExceptWhenThen.getResponseLog" />
         <item itemvalue="TestNG.GivenExceptWhenThen.getHeader" />
         <item itemvalue="TestNG.GivenExceptWhenThen.givenExceptNotFound1" />
-        <item itemvalue="TestNG.GivenExceptWhenThen.givenExceptNotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709799419824</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="rest assured">
+      <created>1709802320849</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709802320849</updated>
+    </task>
+    <task id="LOCAL-00023" summary="rest assured">
+      <created>1709802332739</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709802332739</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
