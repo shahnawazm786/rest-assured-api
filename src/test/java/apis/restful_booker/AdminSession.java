@@ -1,4 +1,4 @@
-package restful_booker;
+package apis.restful_booker;
 
 import org.testng.annotations.Test;
 
