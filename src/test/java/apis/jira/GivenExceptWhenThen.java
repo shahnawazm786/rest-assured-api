@@ -15,7 +15,13 @@ public class GivenExceptWhenThen {
     }
     @Test
     public  void givenExceptNotFound(){
-       // RestAssured.baseURI="https://reqres.in/";
+        RestAssured.baseURI="https://reqres.in/";
+        given().expect().when().get("api/users/23")
+                .then().assertThat().statusCode(404);
+    }
+    @Test
+    public  void givenExceptNotFound(){
+        RestAssured.baseURI="https://reqres.in/";
         given().expect().when().get("api/users/23")
                 .then().assertThat().statusCode(404);
     }
