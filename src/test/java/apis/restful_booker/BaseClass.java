@@ -11,4 +11,5 @@ public class BaseClass {
     public void setBaseURI(){
         restAssured.baseURI="https://restful-booker.herokuapp.com";
     }
+
 }
