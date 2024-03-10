@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="897fe36d-ae2d-4c16-b0dc-f9ae8dd459ea" name="Changes" comment="rest assured">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReArrangeDigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apis/restful_booker/AdminSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/restful_booker/AdminSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apis/restful_booker/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/restful_booker/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apis/restful_booker/IPathParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apis/restful_booker/IPathParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.AdminSession.getToken">
+  <component name="RunManager" selected="Application.ReArrangeDigit">
+    <configuration name="ReArrangeDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ReArrangeDigit" />
+      <module name="rest-assured.api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminSession.getToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-assured.api" />
       <extension name="coverage">
@@ -61,24 +73,6 @@
       <option name="PACKAGE_NAME" value="apis.restful_booker" />
       <option name="MAIN_CLASS_NAME" value="apis.restful_booker.AdminSession" />
       <option name="METHOD_NAME" value="getToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GivenExceptWhenThen.getHeader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest-assured.api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apis.jira.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apis.jira" />
-      <option name="MAIN_CLASS_NAME" value="apis.jira.GivenExceptWhenThen" />
-      <option name="METHOD_NAME" value="getHeader" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReArrangeDigit" />
         <item itemvalue="TestNG.AdminSession.getToken" />
         <item itemvalue="TestNG.HealthCheck.healthCheckPingMethod" />
         <item itemvalue="TestNG.GivenExceptWhenThen.setResponseSpec" />
         <item itemvalue="TestNG.GivenExceptWhenThen.getResponseLog" />
-        <item itemvalue="TestNG.GivenExceptWhenThen.getHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +412,35 @@
       <option name="project" value="LOCAL" />
       <updated>1709886705961</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="rest assured">
+      <created>1709890184719</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890184719</updated>
+    </task>
+    <task id="LOCAL-00039" summary="rest assured">
+      <created>1709890197833</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890197833</updated>
+    </task>
+    <task id="LOCAL-00040" summary="rest assured">
+      <created>1709890351277</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890351277</updated>
+    </task>
+    <task id="LOCAL-00041" summary="rest assured">
+      <created>1709890358150</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890358150</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
