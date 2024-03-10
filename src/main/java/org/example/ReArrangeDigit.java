@@ -21,9 +21,10 @@ public class ReArrangeDigit {
         }
         Arrays.sort(number);
 
-        for(int i=0;i<6;i++){
+        for(int i=5;i>=0;i--){
             System.out.println(number[i]);
         }
+
 
     }
 }
