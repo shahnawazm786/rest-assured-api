@@ -6,7 +6,7 @@ import java.util.Collections;
 public class ReArrangeDigit {
     public static void main(String[] args) {
         int result=633245;
-        int[] number=new int[6];
+        Integer[] number=new Integer[6];
         int k=0;
         int temp;
         while(result>0){
@@ -19,11 +19,14 @@ public class ReArrangeDigit {
         for(int i=0;i<6;i++){
             System.out.println(number[i]);
         }
-        Arrays.sort(number);
+        Arrays.sort(number,Collections.reverseOrder());
 
-        for(int i=5;i>=0;i--){
+        for(int i=0;i<=5;i++){
             System.out.println(number[i]);
         }
+
+
+
 
 
     }
