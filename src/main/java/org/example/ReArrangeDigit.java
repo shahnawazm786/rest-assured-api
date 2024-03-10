@@ -20,14 +20,14 @@ public class ReArrangeDigit {
             System.out.println(number[i]);
         }
         Arrays.sort(number,Collections.reverseOrder());
-
+        System.out.println();
+        int x=100000;
         for(int i=0;i<=5;i++){
-            System.out.println(number[i]);
+            System.out.print(number[i]);
+        result=result + number[i]*x;
+        x=x/10;
         }
-
-
-
-
-
+        System.out.println();
+        System.out.println(result);
     }
 }
